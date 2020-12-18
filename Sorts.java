@@ -27,7 +27,7 @@ public class Sorts{
     int tempIndex=0;
     for(int i=0;i<data.length;i++){
       for(int j=i;j<data.length;j++){
-        if(data[j]<tempValue){tempValue=data[j]; System.out.println(tempValue+""); tempIndex=j;}
+        if(data[j]<tempValue){tempValue=data[j]; tempIndex=j;}
       }
       data[tempIndex]=data[i];
       data[i]=tempValue;
