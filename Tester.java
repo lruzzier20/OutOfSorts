@@ -20,5 +20,10 @@ public class Tester{
     int[] e = new int[]{10,9,8,7,6,5,4,3,2,1,0};
     Sorts.selectionSort(e);
     System.out.println(Arrays.toString(e));
+    int[] f = new int[]{-1,300,14,54,611,-112,324,342,12,6542,576,2,3,-1242,-534,145,145,145};
+    Sorts.selectionSort(f);
+    System.out.println(Arrays.toString(f));
+    Sorts.selectionSort(d);
+    System.out.println(Arrays.toString(d));
   }
 }
