@@ -16,8 +16,7 @@ public class Sorts{
           data[i]=data[i+1];
           data[i+1]=temp;
           swaps++;
-          System.out.println(Arrays.toString(data));
-          if(i+2==limit){limit--; System.out.println("limit is now "+limit);}
+          if(i+2==limit){limit--;}
         }
       }
     }
