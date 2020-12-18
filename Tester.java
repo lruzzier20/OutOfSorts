@@ -12,9 +12,13 @@ public class Tester{
       c[i]=1000-i;
     }
     Sorts.bubbleSort(c);
-    System.out.println(Arrays.toString(c));
+    //System.out.println(Arrays.toString(c));
     int[] d =new int[0];
     Sorts.bubbleSort(d);
     System.out.println(Arrays.toString(d));
+    System.out.println("--------------");
+    int[] e = new int[]{10,9,8,7,6,5,4,3,2,1,0};
+    Sorts.selectionSort(e);
+    System.out.println(Arrays.toString(e));
   }
 }
