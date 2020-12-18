@@ -11,8 +11,10 @@ public class Tester{
     for(int i=0;i<c.length;i++){
       c[i]=1000-i;
     }
-    System.out.println(Arrays.toString(c));
     Sorts.bubbleSort(c);
     System.out.println(Arrays.toString(c));
+    int[] d =new int[0];
+    Sorts.bubbleSort(d);
+    System.out.println(Arrays.toString(d));
   }
 }
