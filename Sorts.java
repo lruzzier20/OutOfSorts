@@ -48,7 +48,7 @@ public class Sorts{
     for(int i=1;i<data.length;i++){
       tempV=data[i];
       for(int j=i-1;j-1>=-1&&notdone;j--){
-        if(data[j]>tempV){temppV=data[j]; data[j]=tempV; data[j+1]=temppV; System.out.println(Arrays.toString(data));}else{notdone=false; System.out.println("Let's place it here!");}
+        if(data[j]>tempV){temppV=data[j]; data[j]=tempV; data[j+1]=temppV;}else{notdone=false;}
       }
       notdone=true;
     }
