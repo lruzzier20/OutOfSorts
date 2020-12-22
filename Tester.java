@@ -26,9 +26,16 @@ public class Tester{
     Sorts.selectionSort(d);
     System.out.println(Arrays.toString(d));
     System.out.println("--------------");
-    int[] g = new int[]{10,9,8,7,6,5,4,3,2,1,0};
+    int[] g = new int[]{10,11,8,7,6,5,4,3,2,1,0};
     System.out.println(Arrays.toString(g));
     Sorts.insertionSort(g);
     System.out.println(Arrays.toString(g));
+    System.out.println("--------------");
+    int[] h = new int[]{0,11,23,5435,11,23,11,20,0,0,2,6,10};
+    Sorts.insertionSort(h);
+    System.out.println(Arrays.toString(h));
+    int[] i =new int[0];
+    Sorts.bubbleSort(i);
+    System.out.println(Arrays.toString(i));
   }
 }
